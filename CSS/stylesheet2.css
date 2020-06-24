@@ -1,0 +1,47 @@
+ul {
+    position: static;
+    top: 0;
+    width: 100%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:#EBFBFA;
+    font-family: 'Bree Serif', serif;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: rgb(88, 86, 86);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color on hover */
+  li a:hover {
+    background-color: #D3E1E1;
+  } 
+
+
+  h2{
+    text-align: center;
+    padding-top: 3%;
+    font-family: 'Bree Serif', serif;
+  }
+
+img {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+body{
+  flex-direction:column;
+  justify-content:center;
+  text-align:center;
+}

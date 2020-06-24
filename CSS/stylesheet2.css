@@ -34,11 +34,29 @@ ul {
     font-family: 'Bree Serif', serif;
   }
 
+  p {
+    flex-direction: column;
+    padding-top: 0%;
+    padding-left: 20%;
+    padding-right:20%;
+    text-align: center;
+    color: rgb(88, 86, 86);
+    font-family: 'Bree Serif', serif;
+   }
+
 img {
   flex: 25%;
   max-width: 25%;
   padding: 0 4px;
 }
+
+#roundimg {
+  display: block;
+ margin-left: auto;
+  margin-right: auto;
+ width: 30%;
+border-radius: 50%;
+} 
 
 body{
   flex-direction:column;
